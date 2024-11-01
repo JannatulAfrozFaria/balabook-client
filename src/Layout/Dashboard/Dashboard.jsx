@@ -23,7 +23,7 @@ const Dashboard = () => {
                      <NavLink to={'/dashboard/payment'}> <FaWallet/> Payment History </NavLink>
                 </li>
                 <li>
-                     <NavLink to={'/dashboard/cart'}> <FaShoppingCart/> My Cart  ( {cart.length} )  </NavLink>
+                     <NavLink to={'/dashboard/cart'}> <FaShoppingCart/> My Cart    </NavLink>
                 </li>
                 
                 <li>
