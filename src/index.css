@@ -3,15 +3,26 @@
 @tailwind utilities;
 
 /* DASHBOARD-------- */
-.userDashboardBg{
-    background-color: #f9e0ee;
+.dashTheme{
+   color: #6366f1;
+   border: #6366f1 5px solid;
+   border-radius: 50%;
+   padding: 5px 8px;
   }
-  .dashBrand{
-    color: #ba87a5;
+  .dashList li:hover{
+    color: #6366f1;
   }
-  .dashBrandSpan{
-    color: #d166a4;
+  .dashList li div span{
+    font-size: larger ;
   }
+ .profileName{
+    background-color: #ffed37;
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 5px 3px;
+    font-weight: bold;
+    font-size: larger;
+   }
   .payButton{
     background-color: #c97ca9;
     color: white;
@@ -22,5 +33,15 @@
     background-color: #FBCFE8;
     color: #c97ca9;
     border: 2px solid #c97ca9;
+  }
+  /* ITEMS------- */
+  .themeText{
+    color: #6366f1;
+  }
+  .gray{
+    color: rgb(171, 169, 169);
+  }
+  .btnYellow{
+    background-color:#ffed37;
   }
   

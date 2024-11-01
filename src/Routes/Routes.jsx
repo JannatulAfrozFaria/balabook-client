@@ -11,7 +11,7 @@ import Items from "../DashboardPages/Items/Items";
       element: <Dashboard></Dashboard>,
       children: [
         {
-          path: 'cart',
+          path: 'items',
           element: <Items></Items>
         }
       ]
