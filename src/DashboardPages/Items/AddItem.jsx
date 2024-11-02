@@ -81,6 +81,15 @@ const AddItem = () => {
                                     </div>
                                     <h1>Service</h1>
                                 </div>
+                                <div className="flex gap-1">
+                                    <div className="form-control">
+
+                                        <label className="label cursor-pointer">
+                                            <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                                        </label>
+                                    </div>
+                                    <h1>Good</h1>
+                                </div>
                             </div>
                         </div>
 
