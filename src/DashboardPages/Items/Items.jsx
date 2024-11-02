@@ -1,6 +1,7 @@
 import { RiHome2Line } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
+import { Link } from "react-router-dom";
 const Items = () => {
     return (
         <div>
@@ -11,7 +12,9 @@ const Items = () => {
             </div>
             <div className="flex items-center my-6">
                 <h1 className="text-3xl font-bold flex-grow">Items</h1>
-                <button className="btn rounded-full btnYellow">Add New Item</button>
+                <button className="btn rounded-full btnYellow">
+                   <Link to={'/addItem'}>Add New Item</Link> 
+                </button>
             </div>
             <div className="bg-gray-100 p-6 rounded-3xl ">
                 <h1 className="font-semibold text-gray-800">Search</h1>
