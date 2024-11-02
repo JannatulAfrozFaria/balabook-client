@@ -20,7 +20,7 @@ const Dashboard = () => {
                                     to={`/${path}`}
                                     className={({ isActive }) =>
                                         isActive
-                                            ? 'text-purple-600 font-semibold' // Custom class for active state
+                                            ? 'text-purple-600 font-semibold' 
                                             : 'text-dark2'
                                     }
                                 >

@@ -36,29 +36,32 @@ const AddItem = () => {
                     {/* ACCOUNT*/}
                     <label className="form-control w-full">
                         <div className="label">
-                            <span className="label-text text-xl  font-semibold">Description*</span>
+                            <span className="label-text text-xl  font-semibold">Account</span>
                         </div>
-                        <input type="text" placeholder="Description" className="input input-bordered w-full bg-slate-100" />
+                        <div className="relative">
+                            <input type="text" placeholder="Select type" className="input input-bordered w-full bg-slate-100" />
+                           <span className="absolute top-1/3 right-8 text-xl"> < IoIosArrowDown/></span>
+                        </div>
+
                     </label>
                     <div className="grid grid-cols-2 gap-4">
                         {/* Price*/}
                         <label className="form-control w-full">
                             <div className="label">
-                                <span className="label-text text-xl  font-semibold">Description*</span>
+                                <span className="label-text text-xl  font-semibold">Price*</span>
                             </div>
-                            <input type="text" placeholder="Description" className="input input-bordered w-full bg-slate-100" />
+                            <input type="text" placeholder="0.00" className="input input-bordered w-full bg-slate-100" />
                         </label>
                         {/* Discount*/}
                         <label className="form-control w-full">
                             <div className="label">
                                 <span className="label-text text-xl  font-semibold">Discount*</span>
                             </div>
-                            <input type="text" placeholder="Description" className="input input-bordered w-full bg-slate-100" />
+                            <input type="text" placeholder="0.00" className="input input-bordered w-full bg-slate-100" />
                         </label>
                     </div>
                     {/* LAST GRID------- */}
                     <div className="grid grid-cols-2 gap-4">
-
                         {/* vA-L-U-E- -A-D-D-E-D- -T-A-X-*/}
                         <label className="form-control w-full">
                             <div className="label">
@@ -69,10 +72,10 @@ const AddItem = () => {
                         {/* TYPE----OF---ITEM--*/}
                         <div>
                             <div className="label">
-                                <span className="label-text text-xl  font-semibold">Value added tax</span>
+                                <span className="label-text text-xl  font-semibold">Type of Item</span>
                             </div>
                             <div className="flex gap-3">
-                                <div className="flex gap-1">
+                                <div className="flex gap-1 items-center">
                                     <div className="form-control">
 
                                         <label className="label cursor-pointer">
@@ -81,7 +84,7 @@ const AddItem = () => {
                                     </div>
                                     <h1>Service</h1>
                                 </div>
-                                <div className="flex gap-1">
+                                <div className="flex gap-1 items-center">
                                     <div className="form-control">
 
                                         <label className="label cursor-pointer">
