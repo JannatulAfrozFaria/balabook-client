@@ -29,10 +29,10 @@ const EditItem = () => {
             <div className="flex gap-1 items-center">
                 <span className="font-semibold text-xl"><RiHome2Line /></span>
                 <span className="gray font-semibold text-xl"><IoIosArrowForward /></span>
-                <span className="themeText font-semibold"> Add New Items</span>
+                <span className="themeText font-semibold"> Items</span>
             </div>
             <div className="flex items-center my-6">
-                <h1 className="text-3xl font-bold flex-grow">Add New Items</h1>
+                <h1 className="text-3xl font-bold flex-grow">Edit Item</h1>
                 <div className="flex gap-3">
                     <button className="btn btn-outline rounded-3xl border-2 text-lg ">
                         <Link to={'/items'}>Cancel</Link>

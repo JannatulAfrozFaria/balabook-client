@@ -11,11 +11,6 @@ const Items = () => {
         setIsOpen((prev) => !prev);
     };
 
-    const handleEdit = () => {
-        console.log('Edit action');
-        setIsOpen(false);
-    };
-
     const handleDelete = () => {
         console.log('Delete action');
         setIsOpen(false);
@@ -55,7 +50,7 @@ const Items = () => {
                             </tr>
                         </thead>
                         <tbody className="text-gray-500 text-lg">
-                            {/* row 3 */}
+                            {/* row */}
                             <tr>
                                 <td>pakoray</td>
                                 <td>Good</td>
@@ -72,12 +67,14 @@ const Items = () => {
                                             <div className="absolute left-0 mt-1 w-40 bg-white border border-gray-200 shadow-lg rounded-md z-10">
                                                 <ul className="py-1">
                                                     <li>
-                                                        <button
-                                                            className="block px-4 py-2 text-left w-full hover:bg-gray-100"
-                                                            // onClick={handleEdit}
-                                                        >
-                                                            <Link to={'/editItem'}> Edit</Link>
-                                                        </button>
+                                                        <Link to={'/editItem'}>
+                                                            <button
+                                                                className="block px-4 py-2 text-left w-full hover:bg-gray-100"
+                                                                onClick={() => setIsOpen(false)} // Close dropdown after selecting
+                                                            >
+                                                                Edit
+                                                            </button>
+                                                        </Link>
                                                     </li>
                                                     <li>
                                                         <button
