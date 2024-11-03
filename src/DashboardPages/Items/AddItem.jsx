@@ -35,10 +35,10 @@ const AddItem = () => {
                 <h1 className="text-3xl font-bold flex-grow">Add New Items</h1>
                 <div className="flex gap-3">
                     <button className="btn btn-outline rounded-3xl border-2 text-lg ">
-                        <Link to={'/addItem'}>Cancel</Link>
+                        <Link to={'/items'}>Cancel</Link>
                     </button>
                     <button className="btn rounded-full btnYellow text-lg">
-                        <Link to={'/addItem'}>Save</Link>
+                        <Link to={'/items'}>Save</Link>
                     </button>
                 </div>
             </div>
