@@ -74,9 +74,9 @@ const Items = () => {
                                                     <li>
                                                         <button
                                                             className="block px-4 py-2 text-left w-full hover:bg-gray-100"
-                                                            onClick={handleEdit}
+                                                            // onClick={handleEdit}
                                                         >
-                                                            Edit
+                                                            <Link to={'/editItem'}> Edit</Link>
                                                         </button>
                                                     </li>
                                                     <li>
